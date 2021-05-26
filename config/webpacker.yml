@@ -29,6 +29,9 @@ development:
     hmr: true
     # Inline should be set to true if using HMR; it inserts a script to take care of live reloading
     inline: true
+    # Inject browserside javascript that required by both HMR and Live(full) reload
+    injectClient: true
+#    injectHot: true
     # Should we show a full-screen overlay in the browser when there are compiler errors or warnings?
     overlay: true
     # Should we use gzip compression?

@@ -14,7 +14,7 @@ const HelloWorld: FunctionComponent<Props> = (props: Props) => {
 
   return (
     <div>
-      <h3>Hello, {name}!</h3>
+      <h3>HelloXXX, {name}!</h3>
       <hr />
       <form>
         <label className={style.bold} htmlFor="name">
