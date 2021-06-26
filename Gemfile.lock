@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/shakacode/webpacker.git
-  revision: 1a680abb22154b97b6e86ced38b15cfa23a441da
+  revision: ab5a7a5a9421ca65c666f6602ea30a95e3e68d6e
   branch: justin808/change-css-loader
   specs:
     webpacker (6.0.0.beta.7)
@@ -84,7 +84,7 @@ GEM
       xpath (~> 3.2)
     childprocess (3.0.0)
     coderay (1.1.3)
-    concurrent-ruby (1.1.8)
+    concurrent-ruby (1.1.9)
     connection_pool (2.2.5)
     crass (1.0.6)
     erubi (1.10.0)
@@ -101,7 +101,7 @@ GEM
     listen (3.5.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
-    loofah (2.9.1)
+    loofah (2.10.0)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     mail (2.7.1)
