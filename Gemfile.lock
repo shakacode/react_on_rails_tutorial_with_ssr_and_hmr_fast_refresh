@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/deivid-rodriguez/pry-byebug.git
+  revision: 3119d7709874446edcd4ac8cce51c8e8be39a9bf
+  specs:
+    pry-byebug (3.9.0)
+      byebug (~> 11.0)
+      pry (>= 0.13, < 0.15)
+
+GIT
   remote: https://github.com/shakacode/webpacker.git
   revision: ab5a7a5a9421ca65c666f6602ea30a95e3e68d6e
   branch: justin808/change-css-loader
@@ -118,12 +126,9 @@ GEM
     nokogiri (1.11.7)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
-    pry (0.13.1)
+    pry (0.14.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    pry-byebug (3.9.0)
-      byebug (~> 11.0)
-      pry (~> 0.13.0)
     pry-doc (1.1.0)
       pry (~> 0.11)
       yard (~> 0.9.11)
@@ -230,8 +235,8 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   mini_racer
-  pry
-  pry-byebug
+  pry (>= 0.14.1)
+  pry-byebug!
   pry-doc
   pry-rails
   pry-rescue

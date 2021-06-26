@@ -25,8 +25,9 @@ gem 'bootsnap', '>= 1.4.2', require: false
 group :development, :test, :production do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
-  gem 'pry' # Console with powerful introspection capabilities
-  gem 'pry-byebug' # Integrates pry with byebug
+  gem 'pry', '>= 0.14.1' # Console with powerful introspection capabilities
+  # Need to use master of pry-byebug to use latest pry version
+  gem 'pry-byebug', github: 'deivid-rodriguez/pry-byebug' # Integrates pry with byebug
   gem 'pry-doc' # Provide MRI Core documentation
   gem 'pry-rails' # Causes rails console to open pry. `DISABLE_PRY_RAILS=1 rails c` can still open with IRB
   gem 'pry-rescue' # Start a pry session whenever something goes wrong.
